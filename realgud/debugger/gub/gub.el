@@ -43,7 +43,7 @@ This should be an executable on your path, or an absolute file name."
 
 (declare-function gub-query-cmdline  'realgud-gub-core)
 (declare-function gub-parse-cmd-args 'realgud-gub-core)
-(declare-function realgud:run-process 'realgud-core)
+(declare-function realgud:run-process 'realgud:run)
 
 
 (defun realgud-gub-fn (&optional opt-command-line no-reset)
